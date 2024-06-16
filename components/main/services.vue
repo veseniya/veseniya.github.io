@@ -27,9 +27,9 @@ onMounted(() => {
 
 <template>
     <div>
-            <UCarousel ref="carouselRef" v-slot="{ item }" :items="items" :ui="{ item: 'basis-full' }"
+            <!-- <UCarousel ref="carouselRef" v-slot="{ item }" :items="items" :ui="{ item: 'basis-full' }"
                 class="rounded-lg overflow-hidden" indicators>
                 <img :src="item" class="responsive">
-            </UCarousel>
+            </UCarousel> -->
         </div>
 </template>
